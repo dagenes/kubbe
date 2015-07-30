@@ -489,6 +489,7 @@ namespace ASCOM.ATA50
         {
             get
             {
+                
                 tl.LogMessage("CanSyncAzimuth Get", false.ToString());
                 if (domeShutterState)
                 {
