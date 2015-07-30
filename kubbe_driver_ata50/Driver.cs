@@ -456,7 +456,7 @@ namespace ASCOM.ATA50
 
         public void CloseShutter()
         {
-            Console.WriteLine("geri")
+            Console.WriteLine("geri");
             tl.LogMessage("CloseShutter", "Shutter has been closed");
             domeShutterState = false;
         }
