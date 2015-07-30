@@ -81,6 +81,7 @@ class Program
             // quick way to use ist, but not best practice - SshCommand is not Disposed, ExitStatus not checked...
             Console.WriteLine("telnet localhost 6571");
             Console.WriteLine("denemeeeeeee");
+            Console.WriteLine("deneme2");
             //Console.WriteLine(sshclient.CreateCommand("cd /tmp && ls -lah").Execute());
             //Console.WriteLine(sshclient.CreateCommand("pwd").Execute());
             //Console.WriteLine(sshclient.CreateCommand("cd /tmp/uploadtest && ls -lah").Execute());
