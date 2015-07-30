@@ -77,7 +77,7 @@ class Program
         using (var sshclient = new SshClient(ConnNfo))
         {
             sshclient.Connect();
-
+            //
             // quick way to use ist, but not best practice - SshCommand is not Disposed, ExitStatus not checked...
             Console.WriteLine("telnet localhost 6571");
             Console.WriteLine("denemeeeeeee");
